@@ -1,0 +1,14 @@
+services:
+  qdrant:
+    image: 'qdrant/qdrant'
+    ports:
+      - 6333:6333
+
+
+# for running it :
+
+# 1. In terminal ---> docker compose -f services_file_name up -d 
+# eg: docker compose -f docker-compose.DB.yml up -d
+
+# -d ka karan h ki usse background me run hoga
+
